@@ -59,13 +59,13 @@
 		</dependencies>
 	</dependencyManagement>
 	
-	<!-- <build>
+	<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.2</version>$NO-MVN-MAN-VER$
+				<version>2.2</version><!--$NO-MVN-MAN-VER$-->
 				<configuration>
-					In version 2.1-alpha-1, this was incorrectly named warSourceExcludes
+					<!-- In version 2.1-alpha-1, this was incorrectly named warSourceExcludes -->
 					<packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes>
 					<archive>
 						<manifest>
@@ -76,7 +76,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build>
 
 	<repositories>
 		<repository>

@@ -62,12 +62,12 @@
 					<skinnyWars>true</skinnyWars>
 					<defaultLibBundleDir>lib/</defaultLibBundleDir>
 					<modules>
-						<!-- <webModule>
+						<webModule>
 							<groupId>br.gov.serpro.report</groupId>
 							<artifactId>report-test-war</artifactId>
 							<contextRoot>report-test</contextRoot>
 							<moduleId>report-test-war</moduleId>
-						</webModule> -->
+						</webModule>
 					</modules>
 				</configuration>
 			</plugin>
