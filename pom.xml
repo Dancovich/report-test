@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>demoiselle-parent</artifactId>
+		<groupId>br.gov.frameworkdemoiselle</groupId>
+		<version>6-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>br.gov.serpro.report</groupId>
+	<artifactId>report-test-build</artifactId>
+	<version>1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>report-test-war</module>
+		<module>report-test-ear</module>
+	</modules>
+	
+</project>
